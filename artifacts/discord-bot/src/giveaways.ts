@@ -26,6 +26,7 @@ export type GiveawayStartInput = {
   organizerId: string;
   prize: string;
   description?: string;
+  color?: string;
   duration: string;
   numberOfWinners: number;
   channelId: string;

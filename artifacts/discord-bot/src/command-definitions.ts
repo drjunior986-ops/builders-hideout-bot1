@@ -386,6 +386,13 @@ export const commands = [
             description: "Optional role required to enter.",
             required: false,
           },
+          {
+  type: ApplicationCommandOptionType.String,
+  name: "color",
+  description: "Optional embed color in hexadecimal, such as #8B0000.",
+  required: false,
+  max_length: 7,
+},
         ],
       },
       {

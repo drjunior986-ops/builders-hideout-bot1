@@ -63,6 +63,7 @@ export type GiveawayRecord = {
   organizerId: string;
   prize: string;
   description?: string;
+  embedColor?: number;
   durationMs: number;
   numberOfWinners: number;
   requiredRoleId?: string;

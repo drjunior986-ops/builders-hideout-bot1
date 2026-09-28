@@ -497,6 +497,10 @@ async function handleGiveawayCommand(
             ),
           channelId: channel.id,
           requiredRoleId: role?.id,
+          color:
+  interaction.options.getString(
+    "color",
+  ) ?? undefined,
         });
 
       await replySuccess(
